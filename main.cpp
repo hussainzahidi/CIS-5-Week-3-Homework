@@ -21,6 +21,9 @@ int main() {
 	int credits = 4;
 	double gpa = 3.8;
 
+	// Changed variable
+	gpa = 3.75;
+
 	cout << "The year is: " << CURRENT_YEAR << endl
 		<< "Name: " << first_name << endl
 		<< "Age: " << age << endl
@@ -33,6 +36,11 @@ int main() {
 
 	cout << "My name is " << first_name << " and I am " << age << " years old." << endl
 		<< "In " << CURRENT_YEAR << ", I have " << credits << " credits and a GPA of " << gpa << "." << endl;
+
+	// gpa was written as 3.8. I changed it to 3.75. Output paragraph reflects this change.
+	// Console reads the new value because it is not a constant variable. 
+	// If it were a constant variable, the program would not compile.
+
 
 	return 0;
 }
