@@ -1,36 +1,38 @@
 #include <iostream>
 #include <string>
 
-// Homework 3 — Your Name
+// Lab 3 — Hussain Zahidi
 // CIS 5 Week 03 · Types & variables
 
 int main() {
-  const int CURRENT_YEAR = 2026;
+	using std::cin;
+	using std::cout;
+	using std::string;
+	using std::endl;
 
-  // TODO: Lab 3 boxes — initialize on the same line
-  // std::string name = ...;
-  // int age = ...;
-  // double height_m = ...;
-  // char initial = ...;
-  // bool student = ...;
+	const int CURRENT_YEAR = 2026;
+	string first_name = "Hussain";
+	int age = 26;
+	double height = 1.75; // in meters
+	char first_initial = 'H';
+	bool isStudent = true;
 
-  // TODO: two more from this week's menu
-  // int credits = ...;
-  // double gpa = ...;
+	// New variables
+	int credits = 4;
+	double gpa = 3.8;
 
-  // TODO: a comment that explains a type choice (why int, why double, or why const)
+	cout << "The year is: " << CURRENT_YEAR << endl
+		<< "Name: " << first_name << endl
+		<< "Age: " << age << endl
+		<< "Height: " << height << " meters" << endl
+		<< "Initial: " << first_initial << endl
+		<< "Student: " << isStudent << endl
+		<< "Credits: " << credits << endl
+		<< "GPA: " << gpa << endl
+		<< endl;
 
-  std::cout << "=== About me ===\n";
-  // TODO: labeled lines from the names
-  // TODO: one short paragraph from those same names — not leftover quotes
+	cout << "My name is " << first_name << " and I am " << age << " years old." << endl
+		<< "In " << CURRENT_YEAR << ", I have " << credits << " credits and a GPA of " << gpa << "." << endl;
 
-  // TODO: change one value from a first choice. Comment the old value,
-  // the new value, and why the console followed.
-
-  // TODO: two lines that would not compile — leave them commented
-  // Example shape (write your own, with the reason):
-  // int age = "nineteen";   // would not compile — ...
-  // CURRENT_YEAR = 2027;    // would not compile — ...
-
-  return 0;
+	return 0;
 }
