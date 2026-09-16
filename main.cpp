@@ -41,6 +41,8 @@ int main() {
 	// Console reads the new value because it is not a constant variable. 
 	// If it were a constant variable, the program would not compile.
 
+	// double gpa = 3.75; // Did not compile because gpa was already declared as a double variable.
+	// char initials = 'HZ'; // Did not compile because char can only hold a single character.
 
 	return 0;
 }
